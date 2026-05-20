@@ -197,11 +197,10 @@ footer .heart{color:var(--accent-2)}
 
 /* ========== MOBILE (max 620px) ========== */
 @media(max-width:620px){
-  .wrap{padding:0 20px}
-  nav{padding:16px 20px}
+  .wrap{padding-left:22px !important;padding-right:22px !important}
+  nav{padding:16px 22px !important}
   .logo{font-size:1.1rem}
 
-  /* Hero — mobile fixes */
   .hero{padding:100px 0 50px;min-height:auto}
   .hero h1{font-size:2.2rem;letter-spacing:-1px;margin-bottom:18px;line-height:1.1;word-break:break-word}
   .hero .tag{font-size:1rem;margin-bottom:28px}
@@ -212,20 +211,17 @@ footer .heart{color:var(--accent-2)}
   .stat .n{font-size:1.7rem}
   .stat .l{font-size:.78rem}
 
-  /* Hero photo — smaller, no ring/cards on mobile */
   .photo-frame{width:240px;height:300px;border-radius:22px}
   .photo-ring{display:none}
   .float-card{display:none}
   .hero-photo{padding:0 10px}
 
-  /* Section general */
   section{padding:60px 0}
   .sec-head{margin-bottom:36px}
   .sec-head h2{font-size:1.7rem;letter-spacing:-.5px}
   .sec-head p{font-size:.95rem}
   .kicker{font-size:.78rem}
 
-  /* About */
   .about-grid{gap:32px}
   .about-text p{font-size:.96rem;margin-bottom:16px}
   .info-list{grid-template-columns:1fr 1fr;gap:14px 18px;margin-top:22px}
@@ -233,24 +229,20 @@ footer .heart{color:var(--accent-2)}
   .about-visual{padding:28px}
   .about-visual h3{font-size:1.15rem}
 
-  /* Skills */
   .skills-grid{grid-template-columns:1fr;gap:16px}
   .skill{padding:22px 22px}
   .skill-top h4{font-size:1rem}
 
-  /* Services */
   .serv-grid{grid-template-columns:1fr;gap:16px}
   .serv{padding:26px 22px}
   .serv .ic{width:46px;height:46px;font-size:1.3rem;margin-bottom:16px}
   .serv h4{font-size:1.08rem}
 
-  /* Timeline */
   .timeline{padding-left:28px}
   .tl-item{padding-bottom:32px}
   .tl-item::before{left:-28px;width:14px;height:14px}
   .tl-item h4{font-size:1.1rem}
 
-  /* Contact */
   .contact-wrap{padding:28px 20px;gap:30px;border-radius:20px}
   .contact-info h3{font-size:1.4rem}
   .contact-info>p{margin-bottom:22px;font-size:.94rem}
@@ -260,7 +252,6 @@ footer .heart{color:var(--accent-2)}
   .field input,.field textarea{padding:14px 16px;font-size:.94rem}
   .submit{padding:14px;font-size:.95rem}
 
-  /* Footer */
   footer{padding:32px 0}
   footer p{font-size:.84rem}
 
@@ -269,7 +260,8 @@ footer .heart{color:var(--accent-2)}
 
 /* ========== SMALL MOBILE (max 380px) ========== */
 @media(max-width:380px){
-  .wrap{padding:0 16px}
+  .wrap{padding-left:18px !important;padding-right:18px !important}
+  nav{padding:14px 18px !important}
   .hero h1{font-size:1.9rem}
   .hero-btns{flex-direction:column}
   .btn{width:100%}
